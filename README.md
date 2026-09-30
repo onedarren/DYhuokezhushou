@@ -22,6 +22,8 @@
 
 ## 安装
 
+详细图文步骤与完整使用教程见 **[docs/使用教程.md](docs/使用教程.md)**。
+
 1. 浏览器安装 [ScriptCat](https://scriptcat.org) 或 [Tampermonkey](https://www.tampermonkey.net/)
 2. 下载 [dist/抖音自动获客助手-obfuscated.user.js](dist/抖音自动获客助手-obfuscated.user.js)，
    在脚本管理器中「新建脚本」粘贴全部内容保存，或直接拖入安装
