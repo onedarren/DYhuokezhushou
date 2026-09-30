@@ -29,6 +29,7 @@ const metadata = fs.readFileSync(path.join(SRC, 'header.meta.js'), 'utf8').trim(
 const openRuntime = fs.readFileSync(path.join(SRC, 'open', '01-runtime.js'), 'utf8');
 const core = fs.readFileSync(path.join(SRC, 'core', 'core.js'), 'utf8');
 const openPanel = fs.readFileSync(path.join(SRC, 'open', '20-panel.js'), 'utf8');
+const openDonate = fs.readFileSync(path.join(SRC, 'open', '40-donate.js'), 'utf8');
 const openMain = fs.readFileSync(path.join(SRC, 'open', '30-main.js'), 'utf8');
 
 const OPEN_BANNER =
@@ -46,6 +47,7 @@ function assemble(coreCode) {
     openRuntime + '\n' +
     coreCode + '\n' +
     openPanel + '\n' +
+    openDonate + '\n' +
     openMain + '\n' +
     '})();\n'
   );
