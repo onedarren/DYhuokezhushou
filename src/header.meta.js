@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         抖音自动获客助手
+// @name         抖音AI自动获客助手
 // @namespace    https://github.com/dy-comment-assistant
-// @version      2.2.1
+// @version      2.3.0
 // @icon         https://raw.githubusercontent.com/onedarren/DYhuokezhushou/main/docs/logo.png
-// @description  抖音自动获客助手：支持点赞、收藏、评论（表情/文本/AI），关键词搜索与视频链接两种模式。界面与工具模块开源（MIT），核心引擎闭源。
+// @description  抖音AI自动获客助手：支持点赞、收藏、评论（表情/文本/AI），关键词搜索与视频链接两种模式。界面与工具模块开源（MIT），核心引擎闭源。
 // @author       dy-comment-assistant
 // @homepageURL  https://github.com/onedarren/DYhuokezhushou
 // @supportURL   https://github.com/onedarren/DYhuokezhushou/issues

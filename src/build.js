@@ -5,8 +5,8 @@
  * 因此公开仓库环境下无法执行完整构建；本脚本随仓库发布仅用于说明构建方式。
  *
  * 产物：
- *   ../dist/抖音自动获客助手.user.js            完整可读版（仅作者本地）
- *   ../dist/抖音自动获客助手-obfuscated.user.js 发布版（开源模块可读 + 核心模块混淆）
+ *   ../dist/抖音AI自动获客助手.user.js            完整可读版（仅作者本地）
+ *   ../dist/抖音AI自动获客助手-obfuscated.user.js 发布版（开源模块可读 + 核心模块混淆）
  *
  * 用法：
  *   npm install javascript-obfuscator
@@ -84,11 +84,11 @@ function obfuscateCore(code) {
 fs.mkdirSync(DIST, { recursive: true });
 
 const dev = metadata + '\n\n' + assemble(CORE_BANNER + core);
-fs.writeFileSync(path.join(DIST, '抖音自动获客助手.user.js'), dev, 'utf8');
-console.log('完整可读版 -> dist/抖音自动获客助手.user.js (' + Math.round(dev.length / 1024) + ' KB)');
+fs.writeFileSync(path.join(DIST, '抖音AI自动获客助手.user.js'), dev, 'utf8');
+console.log('完整可读版 -> dist/抖音AI自动获客助手.user.js (' + Math.round(dev.length / 1024) + ' KB)');
 
 const release =
   metadata + '\n\n' +
   OPEN_BANNER + assemble(CORE_BANNER + '\n' + obfuscateCore(core));
-fs.writeFileSync(path.join(DIST, '抖音自动获客助手-obfuscated.user.js'), release, 'utf8');
-console.log('混淆发布版 -> dist/抖音自动获客助手-obfuscated.user.js (' + Math.round(release.length / 1024) + ' KB)');
+fs.writeFileSync(path.join(DIST, '抖音AI自动获客助手-obfuscated.user.js'), release, 'utf8');
+console.log('混淆发布版 -> dist/抖音AI自动获客助手-obfuscated.user.js (' + Math.round(release.length / 1024) + ' KB)');

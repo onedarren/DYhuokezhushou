@@ -1,4 +1,4 @@
-# DYhuokezhushou · 抖音自动获客助手
+# DYhuokezhushou · 抖音AI自动获客助手
 
 智能抖音获客助手用户脚本：支持点赞、收藏、评论（表情 / 文本 / AI 回复 / 图片评论），
 提供**关键词搜索**与**视频链接**两种任务模式，页面内浮动控制面板，任务进度持久化与自动恢复。
@@ -25,9 +25,9 @@
 详细图文步骤与完整使用教程见 **[docs/使用教程.md](docs/使用教程.md)**。
 
 1. 浏览器安装 [ScriptCat](https://scriptcat.org) 或 [Tampermonkey](https://www.tampermonkey.net/)
-2. 下载 [dist/抖音自动获客助手-obfuscated.user.js](dist/抖音自动获客助手-obfuscated.user.js)，
+2. 下载 [dist/抖音AI自动获客助手-obfuscated.user.js](dist/抖音AI自动获客助手-obfuscated.user.js)，
    在脚本管理器中「新建脚本」粘贴全部内容保存，或直接拖入安装
-3. 打开 [www.douyin.com](https://www.douyin.com)，页面右侧会出现「🎵 抖音自动获客助手」浮动面板
+3. 打开 [www.douyin.com](https://www.douyin.com)，页面右侧会出现「🎵 抖音AI自动获客助手」浮动面板
 
 ## 功能
 
@@ -60,7 +60,7 @@ src/
     30-main.js         启动引导
   build.js           构建脚本（组装开源模块与核心模块；核心模块不在本仓库）
 dist/
-  抖音自动获客助手-obfuscated.user.js   发布版（开源模块可读 + 核心引擎混淆）
+  抖音AI自动获客助手-obfuscated.user.js   发布版（开源模块可读 + 核心引擎混淆）
 docs/
   使用教程.md         详细使用教程
 ```

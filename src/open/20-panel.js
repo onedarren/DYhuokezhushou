@@ -1,5 +1,5 @@
 /*
- * 抖音自动获客助手 —— 开源模块：浮动控制面板
+ * 抖音AI自动获客助手 —— 开源模块：浮动控制面板
  * 本文件属于项目的开源部分，基于 MIT 协议发布。
  * 提供页面内设置面板：表单、校验、拖动折叠、进度展示。
  */
@@ -51,7 +51,7 @@ const panel = (() => {
   `;
 
   const HTML = `
-    <div id="dycap-header"><span>🎵 抖音自动获客助手</span><span id="dycap-toggle">－</span></div>
+    <div id="dycap-header"><span>🎵 抖音AI自动获客助手</span><span id="dycap-toggle">－</span></div>
     <div id="dycap-body">
       <div id="dycap-status"></div>
       <div class="dycap-btns">
